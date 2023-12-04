@@ -1,0 +1,44 @@
+{
+    "policy": [
+        {
+            "guid": "4233e607-67e4-4be8-818e-a0be884458b1",
+            "policyDetail": {
+                "folderId": "5662218eef8f475e5119b34ffade20db",
+                "guid": "4233e607-67e4-4be8-818e-a0be884458b1",
+                "id": "adf14be5ebadd3e97475b636fedf4cdd",
+                "name": "APIIDA Authentication",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "APIIDA Authentication.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "adf14be5ebadd3e97475b636fedf4cdd"
+        }
+    ]
+}
